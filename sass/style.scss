@@ -217,4 +217,37 @@ h5 {
     width: 290px;
 }
  
+
+/* section portfolio*/
+
+.portfolio {
+    background: $color-background;
+}
+
+.image-container {  
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.text-container {
+    margin: 0;
+    padding: 0;
+    height: 140px;
+    background: $color-text-one;
+}
+
+.text-container h5 {
+    padding-bottom: 8px;
+}
+    
   
